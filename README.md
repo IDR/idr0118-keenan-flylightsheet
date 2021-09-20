@@ -5,7 +5,7 @@
 ### idr-pilot
 | Task | Duration |
 | :----: |:----:|
-| Images| 20h |
+| Images| 7h |
 | Annotations | -- |
 
 ### idr-next
