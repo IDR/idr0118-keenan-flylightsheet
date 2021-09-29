@@ -52,8 +52,7 @@ columns:
           omitempty: false
         - name: Comment [Gene Identifier]
           clientname: Gene Identifier URL
-          clientvalue: >
-            https://ensembl.org/Drosophila_melanogaster/Gene/Summary?g={{ value|urlencode }}
+          clientvalue: http://flybase.org/reports/{{ value|urlencode }}.html
           include: true
         - name: Comment [Gene Symbol]
           clientname: Gene Symbol
