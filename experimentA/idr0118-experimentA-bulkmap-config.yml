@@ -31,6 +31,10 @@ columns:
     clientname: Genetic Cross
     include: yes
 
+  - name: Comment [Genetic Cross Comments]
+    clientname: Genetic Cross Comments
+    include: yes
+
 
   ######################################################################
   # mapr groups
