@@ -1,0 +1,94 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.				
+# STUDY DESCRIPTION SECTION	
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details															
+Comment[IDR Study Accession]	idr0118																		
+Study Title	Dynamics of Drosophila endoderm specification																			
+Study Type	time-lapse imaging																			
+Study Type Term Source REF	OMIT																			
+Study Type Term Accession	OMIT_0027490																			
+Study Description	During early Drosophila embryogenesis, a network of gene regulatory interactions orchestrates terminal patterning, playing a critical role in the subsequent formation of the gut. We utilized CRISPR gene editing at endogenous loci to create live reporters of transcription and light-sheet microscopy to monitor the individual components of posterior patterning network across 90 minutes prior to gastrulation. We developed a computational pipeline for fusing imaging datasets of the individual components into a common multivariable trajectory. This heterogeneous data fusion approach revealed low intrinsic dimensionality of posterior patterning and cell fate specification in wild type embryos. 					
+Study Key Words	gene regulatory networks	light-sheet microscopy	Drosophila development	image registration	data integration	transcriptomics															
+Study Organism	Drosophila melanogaster																		
+Study Organism Term Source REF	NCBITaxon																			
+Study Organism Term Accession	7227																				
+Study Experiments Number	1																			
+Study External URL	
+
+
+
+Study BioImage Archive Accession																			
+Study Public Release Date																																											
+# Study Publication																				
+Study PubMed ID																				
+Study Publication Title	Dynamics of Drosophila endoderm specification								
+Study Author List	Keenan SE, Avdeeva M, Wieschaus EF, Shvartsman SY					
+Study PMC ID																			
+Study DOI																																													
+# Study Contacts																				
+Study Person Last Name	Shvartsman																			
+Study Person First Name	Stanislav																			
+Study Person Email	stas@princeton.edu																			
+Study Person Address	Lewis-Sigler Institute for Integrative Genomics, Carl Icahn Laboratory, Princeton University, Princeton, NJ 08544																			
+Study Person ORCID	0000-0002-9152-9334																			
+Study Person Roles	corresponding author																																									
+# Study License and Data DOI									
+Study License	CC BY 4.0																			
+Study License URL	https://creativecommons.org/licenses/by/4.0/							
+Study Copyright	Keenan et al 																			
+Study Data Publisher	University of Dundee									
+Study Data DOI																																													
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																																													
+# EXPERIMENT SECTION								
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment																					
+Experiment Number	1 												
+Comment[IDR Experiment Name]	idr0118-keenan-flylightsheet/experimentA
+
+
+Experiment Sample Type	tissue																			
+Experiment Description	Time-lapse microscopy was performed on Drosophila embryos containing an endogenous transcriptional reporter for the genes tailless (tll), huckebein (hkb), brachyenteron (byn), forkhead (fkh), and wingless (wg) using a light-sheet microscope.  Images were taken once every minute from the start of nuclear cycle 11 to the start of gastrulation (approximately 90 minutes total) in order to track transcription of genes in individual nuclei in the posterior third of the embryo. 																
+
+Experiment Size	5D Images: 20 4D image stacks (~38000 2D images each)	Average Image Dimension (XYZCT): 1000x1000x200x2x95	Total Tb: 	0.075																
+Experiment Example Images																			
+Experiment Imaging Method	light sheet fluorescence microscopy	SPIM						
+Experiment Imaging Method Term Source REF	Fbbi																		
+Experiment Imaging Method Term Accession	FBbi_00000369																	
+Experiment Organism																				
+Experiment Organism Term Source REF	NCBITaxon																			
+Experiment Organism Term Accession																			
+Experiment Comments	Luxendo MuVi SPIM light-sheet Microscope																																												
+# assay files																				
+Experiment Assay File	gene_sample#_Raw_Images																			
+Experiment Assay File Format	tab-delimited text																			
+Assay Experimental Conditions																				
+Assay Experimental Conditions Term Source REF																				
+Assay Experimental Conditions Term Accession																			
+Quality Control Description																																											
+# Protocols																																	
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description	Virgin females maternally expressing Histone-GFP and MCP-mCherry (genotype: +;+;His-GFP/MCP-mCherry) were crossed to males with one of the endogenous transcriptional reporters (genotypes: +;+;tll-ms2/tll-ms2, +;+;hkb-ms2/hkb-ms2, +;+;byn-ms2/byn-ms2, +;+;fkh-ms2/fkh-ms2, or +;wg-ms2/wg-ms2;tll-ms2/+). An embryo from this cross was used in this experiment.	No treatment was performed on embryos	Embryos were imaged on a Luxendo MuVi SPIM light-sheet microscope, using 30x magnification setting on the Nikon 10x/0.3 water objective.  The 488 nm laser was used to image nuclei (His-GFP), and the 561 nm laser was used to image transcriptional dots (MCP-mCherry),  both at 5% laser power. Exposure time for the green channel was 55 ms and exposure for the red channel was 70 ms.  The line illumination tool was used to improve background levels and was set to 40 pixels. Image segmentation was performed for each 2D slice using a program called ilastik, which utilizes semantic segmentation. 3D object creation from 2D binary images and feature extraction was performed in a program called Arivis. 																																																		
+# Phenotypes																				
+Phenotype Name																				
+Phenotype Description																			
+Phenotype Score Type																			
+Phenotype Term Source REF	CMPO																			
+Phenotype Term Name																				
+Phenotype Term Accession																																											
+# Feature Level Data Files (give individual file details unless there is one file per well)							
+Feature Level Data File Name	gene_sample#_Nuclei	gene_sample#_Dots	gene_sample#_Compartmentalization																			
+Feature Level Data File Format	a list of all 3D nuclei with ID, position, intensities, and size	a list of all 3D transcriptional dots with ID, position, intensities, and size	a list of which nuclei overlaps with transcriptional dots, indicating antive transcription																			
+Feature Level Data File Description	Excel worksheet (.xlsx)	Excel worksheet (.xlsx)	Excel worksheet (.xlsx)																			
+Feature Level Data Column Name	Name	First, Time Point	Id	X, Center of Geometry (µm)	Y, Center of Geometry (µm)	Z, Center of Geometry (µm)	Volume, Volume (µm³)	#Children	Children Names							
+Feature Level Data Column Description	Unique identifying name for nuclear or dot object	the time point in the movie at which an object is present 	Unique Id number for nuclear or dot object	X position of object centroid	Y position of object centroid	Z position of object centroid	3D volume of nuclear or dot objects	Number of objects that overlap. A value of 1 is referring to a nuclear object that does not overlap with any transcriptional dots. A value of 2 indicates a nucleus that overlaps with 1 transcriptional dot. A value of 3 indicates a nucleus that overlaps with 2 transcriptional dots, etc...	List of nuclear and dot names that are overlapping 																																																							
+#  Processed Data Files 																			
+Processed Data File Name																			
+Processed Data File Format																				
+Processed Data File Description																				
+Processed Data Column Name																				
+Processed Data Column Type																				
+Processed Data Column Annotation Level																		
+Processed Data Column Description																			
+Processed Data Column Link To Assay File	
