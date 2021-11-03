@@ -4,7 +4,7 @@ channels:
         active: true
         color: 00FF00
         end: 2500.0
-        label: '0'
+        label: 'Histone-GFP'
         max: 15125.0
         min: 0.0
         start: 0.0
@@ -12,7 +12,7 @@ channels:
         active: true
         color: FF0000
         end: 200.0
-        label: '1'
+        label: 'MCP-mCherry::fkh-MS2'
         max: 803.0
         min: 0.0
         start: 0.0
