@@ -14,7 +14,7 @@ do
 	then
 		mtype="image/tiff"
 	else
-		mtype="openmicroscopy.org/idr/analysis/original"
+		mtype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 	fi
 	image=`python /uod/idr/metadata/idr-utils/scripts/annotate/find_images.py $imagename Project:$projectId`
 	python /uod/idr/metadata/idr-utils/scripts/annotate/attach_file.py -m $mtype $i $image
