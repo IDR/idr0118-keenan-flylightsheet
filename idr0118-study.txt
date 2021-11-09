@@ -8,7 +8,8 @@ Study Type Term Source REF	OMIT
 Study Type Term Accession	OMIT_0027490																			
 Study Description	During early Drosophila embryogenesis, a network of gene regulatory interactions orchestrates terminal patterning, playing a critical role in the subsequent formation of the gut. We utilized CRISPR gene editing at endogenous loci to create live reporters of transcription and light-sheet microscopy to monitor the individual components of posterior patterning network across 90 minutes prior to gastrulation. We developed a computational pipeline for fusing imaging datasets of the individual components into a common multivariable trajectory. This heterogeneous data fusion approach revealed low intrinsic dimensionality of posterior patterning and cell fate specification in wild type embryos. 					
 Study Key Words	gene regulatory networks	light-sheet microscopy	Drosophila development	image registration	data integration	transcriptomics															
-Study Organism	Drosophila melanogaster																		
+Study Organism	Drosophila melanogaster		
+																
 Study Organism Term Source REF	NCBITaxon																			
 Study Organism Term Accession	7227																				
 Study Experiments Number	1																			
@@ -17,7 +18,7 @@ Study External URL
 
 
 Study BioImage Archive Accession																			
-Study Public Release Date																																											
+Study Public Release Date	2021-11-10																																											
 # Study Publication																				
 Study PubMed ID																				
 Study Publication Title	Dynamics of Drosophila endoderm specification								
@@ -53,12 +54,14 @@ Experiment Example Images
 Experiment Imaging Method	light sheet fluorescence microscopy	SPIM						
 Experiment Imaging Method Term Source REF	Fbbi																		
 Experiment Imaging Method Term Accession	FBbi_00000369																	
-Experiment Organism																				
+Experiment Organism	
+																			
 Experiment Organism Term Source REF	NCBITaxon																			
 Experiment Organism Term Accession																			
 Experiment Comments	Luxendo MuVi SPIM light-sheet Microscope																																												
 # assay files																				
-Experiment Assay File	gene_sample#_Raw_Images																			
+Experiment Assay File	
+																		
 Experiment Assay File Format	tab-delimited text																			
 Assay Experimental Conditions																				
 Assay Experimental Conditions Term Source REF																				
@@ -74,7 +77,7 @@ Protocol Description	Virgin females maternally expressing Histone-GFP and MCP-mC
 Phenotype Name																				
 Phenotype Description																			
 Phenotype Score Type																			
-Phenotype Term Source REF	CMPO																			
+Phenotype Term Source REF	CMPO																		
 Phenotype Term Name																				
 Phenotype Term Accession																																											
 # Feature Level Data Files (give individual file details unless there is one file per well)							
@@ -89,6 +92,7 @@ Processed Data File Format
 Processed Data File Description																				
 Processed Data Column Name																				
 Processed Data Column Type																				
-Processed Data Column Annotation Level																		
+Processed Data Column Annotation Level	
+																	
 Processed Data Column Description																			
 Processed Data Column Link To Assay File	
