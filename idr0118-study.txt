@@ -20,11 +20,12 @@ Study External URL
 Study BioImage Archive Accession																			
 Study Public Release Date	2021-11-10																																											
 # Study Publication																				
-Study PubMed ID																				
+Study PubMed ID	35412853	
+																		
 Study Publication Title	Dynamics of Drosophila endoderm specification								
 Study Author List	Keenan SE, Avdeeva M, Wieschaus EF, Shvartsman SY					
 Study PMC ID																			
-Study DOI																																													
+Study DOI	https://doi.org/10.1073/pnas.2112892119																																												
 # Study Contacts																				
 Study Person Last Name	Shvartsman																			
 Study Person First Name	Stanislav																			
